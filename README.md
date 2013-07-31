@@ -10,6 +10,7 @@ Rails 4.0.0
 
   1. clone the repo
   2. bundle install
-  3. RAILS_ENV=production rails s 
-  4. visit http://localhost:3000/admin/events
+  3. rake assets:precompile
+  4. RAILS_ENV=production rails s 
+  5. visit http://localhost:3000/admin/events
  
